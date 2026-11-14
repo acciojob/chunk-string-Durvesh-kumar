@@ -8,7 +8,7 @@ function stringChop(str, size) {
 
   let result = [];
 
-  for(int i=0; i<str.length; i += size){
+  for(const i=0; i<str.length; i += size){
     result.push(str.slice(i, i+size);
   }
   return result;
